@@ -14,71 +14,71 @@ import tailwind from "../assets/tailwind.png";
 import typescript from "../assets/typescript.png";
 const Tech = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-x-[20px] gap-y-[10px] px-16">
+    <div className="flex flex-wrap justify-center gap-x-[20px] gap-y-[10px] px-16 pb-8">
       <img
         src={html}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={css}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={js}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white w-[40px] h-[40px]"
         alt="tech"
       />
       <img
         src={react}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
 
       <img
         src={redux}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={tailwind}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={node}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={material}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={next}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={typescript}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white w-[40px] h-[40px]"
         alt="tech"
       />
       <img
         src={express}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={git}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px] "
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
       <img
         src={jira}
-        className="rounded-full border border-black object-contain w-[40px] h-[40px]"
+        className="rounded-full border bg-white object-contain w-[40px] h-[40px] p-1"
         alt="tech"
       />
     </div>

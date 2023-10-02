@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Martian+Mono&display=swap');
+
 .typewriter p{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     /* border-right: .15em solid orange;  */

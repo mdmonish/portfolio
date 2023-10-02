@@ -10,10 +10,12 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <Router>
-      <div className="relative z-0 bg-gradient-to-r from-[#4e2470] from-30% to-pink-500">
+      <div className="relative z-0 bg-[#F2F2F2]">
         <Navbar />
-        <Hero />
-        <Tech />
+        <div className="bg-pattern">
+          <Hero />
+          <Tech />
+        </div>
 
         <Experience />
 

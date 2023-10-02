@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        pattern: "url('/src/assets/polygon-background.jpg')",
       },
     },
   },

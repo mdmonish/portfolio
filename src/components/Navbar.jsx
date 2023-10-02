@@ -9,14 +9,14 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(true);
 
   return (
-    <nav className="bg-[#22053b] text-white px-10 sm:px-16 py-3 fixed w-full top-0 z-50">
+    <nav className="bg-white font-bold font-mono text-lg px-10 sm:px-16 py-3 fixed w-full top-0 z-50">
       <div className="flex justify-between items-center">
         <Link
           to="/"
           onClick={() => window.scrollTo(0, 0)}
           className="flex items-center gap-x-[10px]"
         >
-          <p>Mohammad Monish</p>
+          <p className="text-xl">{`${"<Monish>"}`}</p>
         </Link>
         <ul className=" gap-x-[20px] hidden sm:flex">
           {navLinks?.map(link => (
@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="border bg-primary right items-center sm:hidden relative">
+        <div className="bg-primary right items-center sm:hidden relative">
           <img
             src={toggle ? menu : close}
             alt="menu"
@@ -33,7 +33,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           {!toggle && (
-            <ul className="absolute right-0 border border-black px-4 left z-50 bg-inherit top-6">
+            <ul className="absolute right-0 border px-4 left z-50 bg-white top-6">
               {navLinks?.map(link => (
                 <li key={link.id} className="py-0.5">
                   <a href={`#${link.id}`}>{link.title}</a>
