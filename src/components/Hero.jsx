@@ -1,10 +1,9 @@
 import React from "react";
-import "../App.css";
 
 const Hero = () => {
   return (
     <div id="about" className="sm:relative sm:h-[85vh] px-16 sm:py-24 py-20">
-      <div className="">
+      <div>
         <p className="text-[24px] sm:text-[56px] leading-none ">
           Hi,
           <br />
