@@ -196,70 +196,71 @@ export const navLinks = [
 //   },
 // ];
 
-// const projects = [
-//   {
-//     name: "Car Rent",
-//     description:
-//       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "mongodb",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: carrent,
-//     source_code_link: "https://github.com/",
-//   },
-//   {
-//     name: "Job IT",
-//     description:
-//       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "restapi",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "scss",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: jobit,
-//     source_code_link: "https://github.com/",
-//   },
-//   {
-//     name: "Trip Guide",
-//     description:
-//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-//     tags: [
-//       {
-//         name: "nextjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "supabase",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "css",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: tripguide,
-//     source_code_link: "https://github.com/",
-//   },
-// ];
-
-// export { services, technologies, experiences, testimonials, projects };
+export const projects = [
+  {
+    name: "CryptoMania",
+    description:
+      "A portal that displays complete information of cryptocurrencies,latest cryptocurrencies news and statistical data using charts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/cryptomania.PNG",
+    source_code_link: "https://github.com/mdmonish/update-raho",
+    live_demo_link: "https://crypto-mania-rct.netlify.app/",
+  },
+  {
+    name: "Bankist",
+    description:
+      " UI-based landing page which describes about featured, operations and user experiences. Guides how to open a new account.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/bankist.PNG",
+    source_code_link: "https://github.com/mdmonish/bankist-website",
+    live_demo_link: "https://bankist-landing-web-page.netlify.app/",
+  },
+  {
+    name: "TouchAccount Application",
+    description:
+      "A application allows users to access their bank account. User can check balance, transactions, can apply for a loan, transfer money to other users and can close their account.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/bankist-app.PNG",
+    source_code_link: "https://github.com/mdmonish/javascript-project",
+    live_demo_link: "https://bankist-market.netlify.app/",
+  },
+];
